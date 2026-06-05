@@ -15,6 +15,7 @@ const projectData: Omit<Project, 'description'>[] = [
     icon: BetterFlow,
     translationKey: 'better-flow',
     tags: ['TypeScript', 'Next.js', 'Tailwind CSS'],
+    isBeta: true,
     githubUrl: 'https://github.com/betterspacx/website',
   },
   {
