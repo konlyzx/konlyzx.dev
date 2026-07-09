@@ -4,10 +4,20 @@ import ProjectItem from './project'
 import AnimatedText from '@/components/animated-text'
 import BetterFlow from '@/components/svg/better-flow'
 import NewShields from '@/components/svg/new-shields'
+import Revelo from '@/components/svg/revelo'
 import { useLanguage } from '@/lib/language-context'
 import { Project } from '@/lib/type'
 
 const projectData: Omit<Project, 'description'>[] = [
+  {
+    title: 'Revelo',
+    url: 'https://revelo.konlyzx.dev/',
+    category: 'website',
+    icon: Revelo,
+    translationKey: 'revelo',
+    tags: ['TanStack Start', 'Supabase', 'TypeScript'],
+    isBeta: true,
+  },
   {
     title: 'Better Flow',
     url: 'https://betterflow.site/',
@@ -15,7 +25,6 @@ const projectData: Omit<Project, 'description'>[] = [
     icon: BetterFlow,
     translationKey: 'better-flow',
     tags: ['TypeScript', 'Next.js', 'Tailwind CSS'],
-    isBeta: true,
     githubUrl: 'https://github.com/betterspacx/website',
   },
   {

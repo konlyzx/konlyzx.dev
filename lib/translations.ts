@@ -37,6 +37,8 @@ export const translations = {
           'An open-source screenshot studio that runs entirely in your browser. No server uploads, no telemetry — just your images, transformed.',
         'new-shields':
           'A beautiful badges generator for your GitHub READMEs. Built with SvelteKit & Hono.',
+        revelo:
+          'A streaming and movie collection tracker with a companion CMS for managing sources and media.',
       },
     },
     geo: {
@@ -87,6 +89,8 @@ export const translations = {
           'Un estudio de capturas de pantalla de código abierto que funciona completamente en tu navegador. Sin cargas al servidor, sin telemetría — solo tus imágenes, transformadas.',
         'new-shields':
           'Un generador de badges hermosos para tus READMEs de GitHub. Construido con SvelteKit y Hono.',
+        revelo:
+          'Un rastreador de películas y series en streaming con un CMS complementario para gestionar fuentes y medios.',
       },
     },
     geo: {
